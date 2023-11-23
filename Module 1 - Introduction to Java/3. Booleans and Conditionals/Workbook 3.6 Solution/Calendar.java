@@ -1,7 +1,7 @@
 
 public class Calendar {
     public static void main(String[] args) {
-        String day = "Friday"; //Can be any day.
+        String day = "ffrfr"; //Can be any day.
         System.out.println("Hey, are you free on " + day + "? \n");
 
 
