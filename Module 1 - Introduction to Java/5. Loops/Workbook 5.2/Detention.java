@@ -3,6 +3,8 @@ public class Detention {
 
         System.out.println("Hi Bart. I can write lines for you.\nWhat do you want me to write?");
         // See Learn the Part for the instructions.
-        
+        for(int i = 1; i < 100; i++){
+            System.out.println(i+"."+"Hello world want coffee");
+        }
     }
 }
