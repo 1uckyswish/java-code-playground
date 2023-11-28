@@ -7,6 +7,16 @@ public class Guess  {
         
        Scanner scan = new Scanner(System.in);
        
+       int secret = 2;
+
+       int guess = scan.nextInt();
+
+       while (guess != secret) {
+        System.out.print("Guess again: ");
+        guess = scan.nextInt();
+       }
+
+       System.out.println("You got it!!");
        //See Learn the Part for detailed instructions.
         
         scan.close();
