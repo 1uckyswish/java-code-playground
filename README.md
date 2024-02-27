@@ -28,7 +28,7 @@ Here's a sneak peek into what you can expect in this repo:
 
 
 
-## Who this course is for:
+## What this course offers:
 
 - to learn Java by building fun projects.
 - to learn by doing. This course includes 100 exercises and challenges.
@@ -36,20 +36,9 @@ Here's a sneak peek into what you can expect in this repo:
 
 ## Repository Structure
 
-- **challenges**: Contains solutions to Java challenges.
-- **projects**: Contains projects developed during the journey to learn Java.
-- **workbooks**: Contains workbooks and exercises for interactive learning.
-
-## Getting Started
-
-If you're new to the repository, start by exploring the different directories:
-
 - **challenges**: Check out solutions to various Java challenges.
 - **projects**: Browse through projects developed while learning Java.
 - **workbooks**: Access workbooks and exercises for interactive learning.
 
 Feel free to clone the repository and explore the code. Happy coding!
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
