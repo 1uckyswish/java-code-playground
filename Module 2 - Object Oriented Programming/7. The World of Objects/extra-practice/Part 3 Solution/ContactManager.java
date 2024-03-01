@@ -7,6 +7,7 @@ public class ContactManager {
             this.contacts[i] = new Contact(contacts[i]);
         }
     }
+    
 
     public Contact getContact(int index) {
         return new Contact(contacts[index]);
