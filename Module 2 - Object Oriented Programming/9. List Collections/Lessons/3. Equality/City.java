@@ -31,4 +31,21 @@ public class City {
     }
 
 
+
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof City)) {
+            return false;
+        }
+        City city = (City) o;
+        return Objects.equals(name, city.name) && population == city.population;
+    }
+
+    public int hashCode() {
+        return Objects.hash(name, population);
+    }
+
+
+
 }

@@ -19,6 +19,10 @@ public class Main {
         };
 
         // TODO: Populate Store using a foreach loop. 
+       
+        for (Movie movie : movies) {
+            store.addMovie(movie);
+        }
 
         printStore();
         userInput();
