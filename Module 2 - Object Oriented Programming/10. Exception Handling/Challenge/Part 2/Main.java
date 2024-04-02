@@ -49,7 +49,9 @@ public class Main {
     }
 
     public static boolean incorrectChoice(int choice) {
-        // TODO
+        if(choice < 0 || choice > 9){
+            return true;
+        }
         return false;
     }
 
@@ -68,7 +70,9 @@ public class Main {
     }
 
     public static boolean incorrectRating(double rating) {
-        // TODO
+       if(rating < 0 || rating > 10){
+            return true;
+        }
         return false;
     }
 

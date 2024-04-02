@@ -12,6 +12,8 @@ public class ExampleOne {
         scanner.close();
         }catch(FileNotFoundException exception){
             System.out.println(exception.getMessage());
+        }finally{
+            System.out.println("Process complete");
         }
     }
     

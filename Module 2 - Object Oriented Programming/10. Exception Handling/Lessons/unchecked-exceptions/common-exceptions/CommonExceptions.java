@@ -5,7 +5,7 @@ public class CommonExceptions {
 
         //**************ArrayIndexOutOfBounds**************//
         int[] grades = new int[] {96, 65, 56, 86};
-        System.out.println(grades[4]);
+        System.out.println(grades[3]);
 
        //**************NullPointerException**************//
         String[] names = new String[7]; 
